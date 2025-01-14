@@ -963,7 +963,8 @@ $$
 Profit Factor = \frac{\text{Gross Profit}}{\text{Gross Loss}}
 $$
 
-To calculate the returns of the strategy, begin by finding the spread difference, which is computed as $ \Delta S_t = S_t - S_{t-1} $. Next, we determine the total portfolio value at time $t$ using the formula $ V_t = {A_t} - \beta \cdot {B_t} $, where $ {A_t} $ and $ {B_t} $ are the positions in assets A and B, respectively. Daily returns $ r_t $ are then calculated by dividing the spread difference $ \Delta S_t $ by the previous day’s total portfolio value $ V_{t-1} $. Daily strategy returns $ R_t $ are obtained by multiplying the previous day's position in the spread by these daily returns. Finally, the cumulative strategy returns are determined by taking the cumulative product of the daily strategy returns:
+To calculate the returns of the strategy, begin by finding the spread difference, which is computed as \( \Delta S_t = S_t - S_{t-1} \). Next, we determine the total portfolio value at time \( t \) using the formula \( V_t = A_t - \beta \cdot B_t \), where \( A_t \) and \( B_t \) are the positions in assets A and B, respectively. Daily returns \( r_t \) are then calculated by dividing the spread difference \( \Delta S_t \) by the previous day’s total portfolio value \( V_{t-1} \). Daily strategy returns \( R_t \) are obtained by multiplying the previous day's position in the spread by these daily returns. Finally, the cumulative strategy returns are determined by taking the cumulative product of the daily strategy returns:
+
 
 $$
 R_{\text{cumulative}}(t) = \prod_{i=1}^t (1 + R_i)
