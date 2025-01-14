@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Override default width and margin settings
+.inner {
+    max-width: 1200px;  // Default is 960px - increasing for longer lines
+}
+
+#main_content {
+    padding-top: 20px;  // Reduce top padding
+}
+
+#main_content_wrap {
+    padding-top: 20px;  // Reduce top padding
+}
+
+.inner {
+    position: relative;
+    max-width: 1200px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
