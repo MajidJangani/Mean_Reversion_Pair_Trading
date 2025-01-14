@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Mean Reversion Pair Trading"
+permalink: /mean-reversion-pair-trading/
+---
+
 # Project Overview
 
 In the realm of statistical arbitrage trading, mean-reversion trading is a prominent strategy based on the theory that asset prices and returns tend to revert to their long-term average levels. Traders using this strategy identify the normal trading range of an
