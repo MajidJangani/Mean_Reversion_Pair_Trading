@@ -1,10 +1,11 @@
 title: Majid Jangani
 description: Mean Reversion Trading Strategy
 show_downloads: true
-google_analytics:
 theme: jekyll-theme-slate
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
   input: GFM
+plugins:
+  - jekyll-remote-theme
