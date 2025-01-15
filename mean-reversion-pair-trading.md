@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Mean Reversion Pair Trading"
-permalink: /mean-reversion-pair-trading/
 ---
 
 # Project Overview
